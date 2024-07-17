@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: flightapp.FlightServiceTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 214.608 s <<< FAILURE! - in flightapp.FlightServiceTest
+flightapp.FlightServiceTest.runTest[0]  Time elapsed: 55.156 s  <<< ERROR!
+java.util.concurrent.ExecutionException: 
+java.lang.IllegalStateException: 
+Transaction not fully commited/rolledback. Number of transactions currently in process: 1
+Important: transactions must committed or rolledback before returning from a method.  Example: flight is full; you must conn.rollback() before returning the error string.
+
+	at flightapp.FlightServiceTest.runTest(FlightServiceTest.java:468)
+Caused by: java.lang.IllegalStateException: 
+
+Transaction not fully commited/rolledback. Number of transactions currently in process: 1
+Important: transactions must committed or rolledback before returning from a method.  Example: flight is full; you must conn.rollback() before returning the error string.
+
+
+flightapp.FlightServiceTest.runTest[1]  Time elapsed: 11.465 s  <<< ERROR!
+java.util.concurrent.ExecutionException: 
+java.lang.IllegalStateException: 
+Transaction not fully commited/rolledback. Number of transactions currently in process: 1
+Important: transactions must committed or rolledback before returning from a method.  Example: flight is full; you must conn.rollback() before returning the error string.
+
+	at flightapp.FlightServiceTest.runTest(FlightServiceTest.java:468)
+Caused by: java.lang.IllegalStateException: 
+
+Transaction not fully commited/rolledback. Number of transactions currently in process: 1
+Important: transactions must committed or rolledback before returning from a method.  Example: flight is full; you must conn.rollback() before returning the error string.
+
+
+flightapp.FlightServiceTest.runTest[2]  Time elapsed: 52.397 s  <<< ERROR!
+java.util.concurrent.ExecutionException: 
+java.lang.IllegalStateException: 
+Transaction not fully commited/rolledback. Number of transactions currently in process: 1
+Important: transactions must committed or rolledback before returning from a method.  Example: flight is full; you must conn.rollback() before returning the error string.
+
+	at flightapp.FlightServiceTest.runTest(FlightServiceTest.java:468)
+Caused by: java.lang.IllegalStateException: 
+
+Transaction not fully commited/rolledback. Number of transactions currently in process: 1
+Important: transactions must committed or rolledback before returning from a method.  Example: flight is full; you must conn.rollback() before returning the error string.
+
+
+flightapp.FlightServiceTest.runTest[9]  Time elapsed: 17.235 s  <<< ERROR!
+java.util.concurrent.ExecutionException: 
+java.lang.IllegalStateException: 
+Transaction not fully commited/rolledback. Number of transactions currently in process: 1
+Important: transactions must committed or rolledback before returning from a method.  Example: flight is full; you must conn.rollback() before returning the error string.
+
+	at flightapp.FlightServiceTest.runTest(FlightServiceTest.java:468)
+Caused by: java.lang.IllegalStateException: 
+
+Transaction not fully commited/rolledback. Number of transactions currently in process: 1
+Important: transactions must committed or rolledback before returning from a method.  Example: flight is full; you must conn.rollback() before returning the error string.
+
+

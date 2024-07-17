@@ -1,0 +1,16 @@
+Reflection:
+    1.One thing that I learned is that there are pre-built libraries/API that allow Java and SQL to work pretty seamlessly together
+    2.One thing that surprised me is how much set-up is required to work with a database in any useful way
+    3.One question I still have is what debugging strategies are usually used for projects like this because I can see how a codebase of this size and above can get really complicated and hard to debug
+
+Debuggin Technique:
+    No
+
+Bug
+    One bug that I ran into was in the password utilities methods where my salting method was returning the same salt over and over again. I noticed the bug from a test and I tracked the bug down to my Random call by printing the random number generated and saw that it was returning the same "random" number every time. I then learned that the problem was that I was creating a Random objected, seeded to the same value every time, every time the salting method was called so the Random object was actually returning a deterministic value. The solution was to create a Random object outside of the method so it persists across method calls so that the "randomness" work properly
+
+Logic
+    Not necessarily logic related, but I would like to see a test case that showcases how much indices/subqueries can affect runtime. For example, implementing the same query logic with vs without using indices and subqueries and see how much time difference there is
+
+Optional
+    Overall, I spent around 7 hours on this checkpoint and I did not collaborate with anyone

@@ -1,0 +1,11 @@
+# Tests special case query that asks for zero itineraries
+
+# commands:
+search "Seattle WA" "Boston MA" 1 1 0
+quit
+*
+
+# expected command output:
+No flights match your selection
+Goodbye
+*

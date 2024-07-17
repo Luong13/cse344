@@ -1,0 +1,9 @@
+1.  One thing that I learned is that the basic print(variable) method of debugging becomes ineffective pretty soon as you write even remotely complex code, and you have to learn to rely on good programming logic and erorr messages to catch bugs
+    One thing that surprised me is how long the methods can get once the query logic gets a little more complex or you need to have transactions
+    One question I still have is that how can people who work on these projects in real life are sure that their code/queries are safe to ship to production when even a small bug can have massive impact?
+
+2.  I was able to make some progress because I learned that error messages are a valuable way to track down bugs. This is after I could not feasibly print at each line to see where the code is going anymore, so I had to rely on errors and stack trace to see what is going on
+
+3.  Personally, I would the manager field NULLable since I can see how a pseudo entry can easily be misused and lead to bugs down the line that are hard to track
+
+4.  I spent around 8 hours on M2 and I did not collaborate with anyone

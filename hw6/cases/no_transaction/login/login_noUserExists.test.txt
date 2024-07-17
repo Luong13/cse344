@@ -1,0 +1,11 @@
+# Tests that login fails on a non-existing account
+
+# commands to execute:
+login someUser noSuchUser
+quit
+*
+
+# expected output:
+Login failed
+Goodbye
+*
